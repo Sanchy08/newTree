@@ -13,7 +13,7 @@
 
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #191919;
     background: white;
     user-select: none;
@@ -27,7 +27,7 @@ body{
 
 .img-container
 {
-	width: 10%;
+	width: 40%;
 	height: 10%;
 }
 
@@ -39,16 +39,15 @@ body{
 	background-color: #FFFFFF;
 	display: inline-block;
 	align-content: center;
-	border-radius: 20px;
-
+	border-radius: 20px	;
 }
 
 .person.female {
-	border-color: #F45B69;
+	border-color: #1084e2;
 }
 
 .person.male {
-	border-color: #456990;
+	border-color: #3c6fa5;
 }
 
 .person div {
@@ -212,6 +211,7 @@ right connector from last child*/
 	background: #367e91;
 	color: #000;
 	border: 1px solid #102585;
+}
 /*Connector styles on hover*/
 /* .tree li .child:hover+.parent::before,
 .tree li .child:hover+.parent .person+ul li::after,
@@ -223,8 +223,7 @@ right connector from last child*/
 .tree li .child:hover+.parent .person+ul ul::before,
 .tree li .parent .person:hover+ul ul::before {
 	border-color: #94a0b4;
-}
- */
+} */
 
 
 
@@ -253,6 +252,7 @@ right connector from last child*/
 	border-radius: 6px;
 	padding: 8px 0;
 	position: absolute;
+	width: 500px;
 	z-index: 1;
 	bottom: 125%;
 	left: 50%;
