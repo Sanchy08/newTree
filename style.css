@@ -268,7 +268,7 @@ right connector from last child*/
 	margin-left: -5px;
 	border-width: 5px;
 	border-style: solid;
-	border-color: #555 transparent transparent transparent;
+	border-color: rgb(255, 255, 255) transparent transparent transparent;
   }
   
   /* Toggle this class - hide and show the popup */
