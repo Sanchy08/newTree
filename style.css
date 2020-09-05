@@ -25,11 +25,11 @@ body{
 	color: transparent;
   }
 
-.img-container
-{
-	width: 40%;
-	height: 10%;
-}
+.imgtag{
+	display: flex;
+	width: 80%;
+	height: 80%;
+  }
 
 /* Person */
 .person {
